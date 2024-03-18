@@ -1,0 +1,305 @@
+/* body{
+    background-color: aqua;
+} */
+
+/* p{
+    color: violet;
+    font-size: 80px;
+}
+ */
+
+ 
+ body {
+    padding-bottom: 500px;
+   
+ }
+
+ /*  08 Classes */
+ .paragrah{
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+ }
+ 
+ #exclusive-title{
+    background-color: purple;
+    color: beige;
+    padding: 10px;
+    font-size: 40px;
+ }
+
+ /* 10 multiplas regras */
+ h2{
+    border-bottom:  2px dotted red;
+}
+
+.titulo{
+     border-bottom:  3px solid blue;
+ }
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+/* 11 nome da cor */
+.color-name{
+    color: crimson;
+}
+
+/* 12 hex */
+
+.hex{
+    background: green;
+    color: white;
+}
+
+.hex-2{
+    background: #55a398;
+    color: white;
+}
+/* 13 Hex simplificado */
+
+.simple-hex{
+    /* color: #333333;     */
+    color: #333;    
+}
+
+.simple-hex-2{
+    /* color: #aa55ff;        */
+    color: #a5f;       
+}
+
+.rgb{
+    color: rgb(255, 0, 0);
+}
+.mixed-rgb{
+    color: rgb(199, 21, 47 );
+}
+.rgba{
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.bg-image{
+    background-image: url(../img/nature.jpg);
+    padding: 10px;
+    color: #fff;
+}
+
+.bg-opacity{
+    background-color: green;
+    opacity: 0.8;
+}
+.bg-opacity-2{
+    background-color: #999;
+    color:#000;
+    opacity: 0.8;
+
+}
+.rgba-opacity{
+    background-color: rgba(90, 12,20, 0.2);
+    color: #000;
+    opacity: 0.1;
+}
+
+.centered-bg,
+.not-centered-bg{
+
+    background-image: url(../img/bridge.jpg);
+    height: 400px;
+    width: 400px;
+    
+}
+
+.centered-bg{
+    border: 4px dotted purple;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 19 -largura e altura */
+
+.without-padding,
+.padding {
+     background-color: #111;
+     color: #fff;   
+}
+
+.padding {
+    background-color: #333;
+    padding: 20px;
+}
+
+.padding-individual{
+    /* background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 20px; */
+    padding: 5px 20px 40px 10px;
+}
+
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+.border2{
+    border: 2px dotted red;
+    padding: 25px;
+    background-color: #999;
+}
+.border-esquerda{
+    border-left: 3px solid red;
+}
+.border-abaixo{
+    border-bottom: 5px double red;
+}
+.arredondada{
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+.arredondada-2{
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* 22 box model */
+
+.box-model{
+    margin: 20px;
+    background-color: aquamarine;
+    padding: 15px 25px;
+    border: 2px solid red;
+    width: 200px;
+    height: 400px;
+}
+/* desafio 03 */
+
+.outline{
+    margin: 23px;
+    background-color: rgb(12, 27, 248);
+    padding: 17px 28px;
+    border: 3px solid rgb(208, 7, 248);
+    width: 100px;
+    height: 200px;
+}
+#outfoder{
+  margin: 23px;  
+  border: 1px solid #123456; 
+  outline: 1px solid #789abc;
+  width: 100px;
+  height: 200px;
+}
+
+/* 24 */
+
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 300px;
+    border: solid red;
+    margin-left: 130px;
+}
+
+/* 25 */
+
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remover-underline{
+    text-decoration: none;
+    color: red;
+}
+.upper{text-transform: uppercase
+}
+.lower{text-transform: lowercase;
+}
+.spacing{letter-spacing: 5px;
+}
+.serif{font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sans-serif{font-family: 'Courier New', Courier, monospace;
+}
+.monospace{font-family:'Courier New', Courier, monospace;
+}
+.cursive{font-family: cursive;
+}
+.fantasy{font-family: fantasy;
+}
+.italic{font-family: italic;
+}
+.oblique{font-style: oblique;
+}
+.thin
+.bold
+.bolder{font-family: helvetica;
+}
+.thin{font-weight: 100;
+}
+.bold{font-weight: 600;
+}
+.bolder{font-weight: 900;
+}
+.small{font-size: 6px;
+}
+.big{font-size: 78px;
+}
+
+.inline-box{
+    width: 50PX;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #333;
+    margin: 10px;
+    color: white;
+    display: block;
+}
+
+.invisible{
+    background-color: #a5f;
+    display: none;
+}
+
+.static{
+    background-color: #4f8;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    position: static;
+}
+
+.relative{
+    background-color: #224;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 20px;
+}
+
